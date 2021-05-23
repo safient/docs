@@ -1,0 +1,60 @@
+---
+sidebar_position: 3
+---
+
+# Core concepts
+
+
+## Glossary:
+
+### Safex:
+
+**Secure crypto secret Exchange and Inheritance Protocol**
+
+---
+
+### Safe:
+
+A secure object that is maintained on a decentralized storage that can only be claimed by the safe beneficiary with the help of guardians.
+
+---
+
+### Safe guardian:
+
+Safe guardians are responsible for guarding and recovering the safes. 
+
+---
+
+### Safe claim:
+
+Request to access the safe by the beneficiary.
+
+---
+
+### Safe states:
+
+- **Active**: The safe is created but not yet claimed by the beneficiary.
+- **Claiming**: The beneficiary has initiated the safe claim.
+- **Recovering**: The safe claim is verified and the guardians have begun to recover the safes.
+- **Recovered**: The required number of guardians have recovered the safe.
+- **Claimed**: The safe has been claimed by the beneficiary.
+
+---
+
+### Arbitration claim states:
+
+- **Pending:** The claim is under review.
+- **Passed (Accepted):** The claim has been accepted.
+- **Failed (Rejected):** The claim is rejected.
+
+---
+
+### Safe maintanance fee:
+
+The fee that is required to maintain and recover the safe. The fee can be paid by either the safe creator or the beneficiary. The fee is used to incentivize the safe guardians and claim arbitrators.
+
+---
+
+### Safe claim type:
+
+Claim type is selected when the user creates the safe. Claims can be either **automatic** or **manual**. Automatic claims are the simplest claim that doesn't requires a basic verification. As soon as the beneficiary claims the safe, a notification will be sent to the safe creator. If the creator doesn't respond within a specified time, the claim will be accepted. Manual claims are the ones that requires evidence and will enter the arbitration phase in Kleros court.
