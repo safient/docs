@@ -8,7 +8,7 @@ module.exports = {
   // onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'getsafex', // Usually your GitHub org/user name.
-  projectName: 'getsafex', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       logo: {
