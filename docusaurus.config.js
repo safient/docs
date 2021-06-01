@@ -1,34 +1,34 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Safex',
+  title: 'Safient',
   tagline: 'Secure crypto secret Exchange and Inheritance Protocol',
-  url: 'https://docs.getsafex.co',
+  url: 'https://docs.safient.io',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   // onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'getsafex', // Usually your GitHub org/user name.
+  organizationName: 'safient', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       logo: {
-        alt: 'Safex',
+        alt: 'Safient',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
       },
       items: [
         {
-          href: 'https://blog.consensolabs.com/tag/safex',
+          href: 'https://blog.consensolabs.com/tag/safient',
           label: 'Blog',
           position: 'right',
         },
         {
-          href: 'https://getsafex.co',
+          href: 'https://safient.io',
           label: 'Website',
           position: 'right',
         },  
         {
-          href: 'https://github.com/getsafex',
+          href: 'https://github.com/safient',
           label: 'GitHub',
           position: 'right',
         },
@@ -42,11 +42,11 @@ module.exports = {
           items: [
             {
               label: 'Basics',
-              to: '/safex-basics/basics',
+              to: '/safient-basics/basics',
             },
             {
               label: 'Developers',
-              to: '/safex-developers/getting-started',
+              to: '/safient-developers/getting-started',
             },
             {
               label: 'Roadmap',
@@ -59,11 +59,11 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.getsafex.co',
+              href: 'https://discord.safient.io',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/getsafex',
+              href: 'https://twitter.com/safient',
             },
           ],
         },
@@ -72,16 +72,16 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              href: 'https://blog.consensolabs.com/tag/safex',
+              href: 'https://blog.consensolabs.com/tag/safient',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/getsafex',
+              href: 'https://github.com/safient',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Safex. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Safient. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -92,14 +92,14 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-          'https://github.com/getsafex/docs/edit/master/',
+          'https://github.com/safient/docs/edit/master/',
           routeBasePath: '/'
         },
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
         //   editUrl:
-        //   'https://github.com/getsafex/docs/edit/master/',
+        //   'https://github.com/safient/docs/edit/master/',
         // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

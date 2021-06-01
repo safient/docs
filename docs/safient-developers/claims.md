@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Safex Claims
+# Safient Claims
 
-Dispute resolution platform for Safex claims using [Kleros court](https://kleros.io/integrations).
+Dispute resolution platform for Safient claims using [Kleros court](https://kleros.io/integrations).
 
 
 ## Getting Started
@@ -12,8 +12,8 @@ Dispute resolution platform for Safex claims using [Kleros court](https://kleros
 Install the dependencies and deploy the contracts on local chain.
 
 ```bash
-git clone https://github.com/getsafex/safex-claims.git
-cd safex-claims
+git clone https://github.com/safient/safient-claims.git
+cd safient-claims
 npm install
 npm run chain
 npm run deploy

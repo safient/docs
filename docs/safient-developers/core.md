@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Safex Core
+# Safient Core
 
 Safe core currently implements the end to end mechanism for safe creation and safe recovery.
 The implementation includes conecpts such as:

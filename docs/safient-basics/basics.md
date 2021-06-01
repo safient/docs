@@ -8,16 +8,16 @@ sidebar_position: 1
 Owning digital crypto assets unlike other digital assets can be challenging due to the self-sovereign nature of the ownership. It means that the owner is the only safe keeper of the assets. This might be intimidating for many as they don't want to be completely responsible for preserving the assets against attacks and natural disasters. Also, there is no standardized way to easily and securely back up and recover these assets. In addition to this there is known safe and 
 convenient way to pass on the valuable crypto assets to your loved ones in case of an unfortunate event.
 
-### Safex to the rescue
+### Safient to the rescue
 
-Safex promises to securely and conveniently store any critical information that is needed to access and recover the assets in case of any tragic events. Safex also provides a trustless yet safe way to transfer and inherit the assets by close ones whenever such an unfortunate scenario occurs.
+Safient promises to securely and conveniently store any critical information that is needed to access and recover the assets in case of any tragic events. Safient also provides a trustless yet safe way to transfer and inherit the assets by close ones whenever such an unfortunate scenario occurs.
 
-Safex uses decentralized storage, smart contracts, and cryptography techniques to build a protocol that helps to store, recover, inherit crypto assets and other confidential information. In essence, you can think of Safex as your trusted guardian even though it is completely trustless.
+Safient uses decentralized storage, smart contracts, and cryptography techniques to build a protocol that helps to store, recover, inherit crypto assets and other confidential information. In essence, you can think of Safient as your trusted guardian even though it is completely trustless.
 
 
 ### How does it work?
 
-Safex allows any user to create a safe where secret seed phrases or any other general notes, attachments can be added with instructions. Safex workflow mainly consists of three phases.
+Safient allows any user to create a safe where secret seed phrases or any other general notes, attachments can be added with instructions. Safient workflow mainly consists of three phases.
 
 **1.** **Create a safe**
 
@@ -38,10 +38,10 @@ safe recovery.
 
 **Trustless recovery protocol**: The safes are protected and governed by completely decentralized guardians and arbitrators (Using Kleros) to ensure the highest degree of resilience.
 
-**Share portfolio:** Safex allows to share portfolio confidentially on a need to know basis with the beneficiaries even before the safe is recovered. Get to know more here.
+**Share portfolio:** Safient allows to share portfolio confidentially on a need to know basis with the beneficiaries even before the safe is recovered. Get to know more here.
 
 **Convenient inheritance**: Ensure that your safes are inherited by beneficiaries only incase of tragic events.
 
 **Dispute resolution:** The dispute resolution platform quickly resolves all the claims for the inheritance of safes. Currently using Kleros court.
 
-**Decentralization - simplified:**  Onboarding and using a trustless, decentralized application is always intimidating. Safex makes the user experience easier than ever with minimal and intuitive interactions.
+**Decentralization - simplified:**  Onboarding and using a trustless, decentralized application is always intimidating. Safient makes the user experience easier than ever with minimal and intuitive interactions.

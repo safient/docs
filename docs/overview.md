@@ -5,25 +5,25 @@ slug: /
 
 # Overview
 
-Welcome to the Safex protocol documentation.
+Welcome to the Safient protocol documentation.
 
-:::note what is safex?
+:::note what is Safient?
 
-Safex aims to provide a convenient and safe way of inheriting and safekeeping mechanism for crypto assets without exposing it to any intermediaries.
+Safient aims to provide a convenient and safe way of inheriting and safekeeping mechanism for crypto assets without exposing it to any intermediaries.
 
 :::
 
 
 ### Where to begin?
 
-This documentation covers all the basic and advanced concepts of Safex protocol.
+This documentation covers all the basic and advanced concepts of Safient protocol.
 
-You can checkout the Developers section if you want to understand the Safex implentation or use Safex SDKs.
+You can checkout the Developers section if you want to understand the Safient implentation or use Safient SDKs.
 
-* [Safex basics](./safex-basics/basics)
-* [Safex for developers](./safex-developers/getting-started)
+* [Safient basics](./safient-basics/basics)
+* [Safient for developers](./safient-developers/getting-started)
 
 
 ### Other resources
 
-You can checkout the detailed roadmap and resources at [https://resources.getsafex.co](https://resources.getsafex.co)
+You can checkout the detailed roadmap and resources at [https://resources.safient.io](https://resources.safient.io)

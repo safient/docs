@@ -1,7 +1,7 @@
 
-# Safex documentation
+# Safient documentation
 
-Official docs site of Safex protocol
+Official docs site of Safient protocol
 
 
 ## Run Locally
@@ -20,10 +20,10 @@ Start the server
 ```
 
 ### A few links
-* [Website](https://getsafex.co)
-* [Web App](https://app.getsafex.co)
-* [Twitter](https://twitter.con/getsafex)
-* [Discord](https://discord.gg/tttGQAwuZx)
+* [Website](https://safient.io)
+* [Web App](https://app.safient.io)
+* [Twitter](https://twitter.safient.io)
+* [Discord](https://discord.safient.io)
   
 ## Authors
 
