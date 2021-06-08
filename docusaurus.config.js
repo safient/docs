@@ -26,7 +26,7 @@ module.exports = {
           href: 'https://safient.io',
           label: 'Website',
           position: 'right',
-        },  
+        },
         {
           href: 'https://github.com/safient',
           label: 'GitHub',
@@ -83,6 +83,16 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Safient. Built with Docusaurus.`,
     },
+    algolia: {
+      apiKey: '6badda78379280a9cc4a22a2500da66a',
+      indexName: 'safient_DOCS',
+
+      // Optional: see doc section below
+      contextualSearch: true,
+
+      // Optional: see doc section below
+      appId: '1Z67YD0ZOD',
+    },
   },
   presets: [
     [
@@ -91,9 +101,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-          'https://github.com/safient/docs/edit/master/',
-          routeBasePath: '/'
+          editUrl: 'https://github.com/safient/docs/edit/master/',
+          routeBasePath: '/',
         },
         // blog: {
         //   showReadingTime: true,
