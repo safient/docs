@@ -25,8 +25,8 @@ We built a confidential portfolio sharing application ([Portex](https://portex.x
 
 Taking all the feedbacks from our hackathon project, we started to design and prototype the solution for Safient. We planned all the features, integrations and layed our architecture for our initial implementation.
 
-## 2020 - Q2
-### Closed beta release 🧪
+## 2021 - Q3
+### Private beta release 🧪
 
 Closed beta release for the community. Features include:
 - Secret sharing mechanism using guardians
@@ -34,11 +34,18 @@ Closed beta release for the community. Features include:
 - Inheritance claims using Kleros
 - Identity management for users
 
+## 2021 - Q4
 ### Beta release for the community 🚀
 
 Features include:
 - Well tested and audited contracts for inheritance claims
 - Well tested secret sharing with optimised incentivization mechanism
+
+## 2022 - Q1
+### Audit and Mainnet release 🚀
+
+Features include:
+- Safient will undergo bug bounty program and security audit before the mainnet release
 
 
 
