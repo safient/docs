@@ -21,29 +21,57 @@ Dispute resolution platform for Safient claims using [Kleros court](https://kler
 
 ## Getting Started
 
+### Installation:
+
 Install the dependencies and deploy the contracts on local chain.
 
 ```bash
-git clone https://github.com/safient/safient-claims.git
-cd safient-claims
+git clone https://github.com/safient/safient-claims-js
+cd safient-claims-js
 npm install
-npm run chain
-npm run deploy
 ```
 
-Then, run the client development server:
+### Running tests:
+
+Start the local blockchain:
 
 ```bash
-cd client
-npm install
-npm run start
+npm run chain
 ```
 
-🌐 Open http://localhost:3000 in your browser to test the application
+Run tests:
 
-📝 Smart contract is located at /contracts
+```bash
+npm run test
+```
 
-📚 Access artifacts from /subgraph and /client/src/contracts folders
+### Usage
+
+Install the Node module:
+
+```
+npm install @safient/claims
+```
+
+Import and consume in your project:
+
+```
+
+import { SafientClaims } from '@safient/claims';
+
+
+// If not injected web3 provider, create a jsonRpcProvider
+const { JsonRpcProvider } = require('@ethersproject/providers');
+const provider = new JsonRpcProvider('http://localhost:8545');
+
+// Get chainId from provider
+(async () => {
+  const providerNetwork = await provider.getNetwork();
+  const chainId = providerNetwork.chainId;
+})();
+
+const sc = new SafientClaims(provider, chainId);
+```
 
 ## Technologies used:
 
