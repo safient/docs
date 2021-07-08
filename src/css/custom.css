@@ -6,6 +6,12 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: "Inter";
+  src: url('/static/Inter-Regular.ttf') format('truetype');
+}
+
 :root {
   --ifm-color-primary: #676bf6;
   --ifm-color-primary-dark: #5357d8;
@@ -18,7 +24,8 @@
   --code-block-background: rgb(41, 45, 62);
   --code-block-color: var(--ifm-color-primary-lightest);
   --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'Inter';
+  --ifm-font-family-monospace: "Inter";
+  --ifm-font-family-base: "Inter"
 }
 
 .docusaurus-highlight-code-line {
